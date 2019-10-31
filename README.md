@@ -1,3 +1,15 @@
+# applyStyle
+
+```
+const style = css`
+  :host {
+    background: red;
+  }
+`
+
+applyStyle(this.shadowRoot.querySelector("#myNode"), style);
+```
+
 # spreadProps
 
 ```
